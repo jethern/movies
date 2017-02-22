@@ -5,6 +5,7 @@ I use it mostly to try out new ideas and technologies.
 
 ## Instalação
 
+Para configurar a API Key da Api, você pode editar diretamente no Info.plist na chave MovieApiKey.
 
 ### Slather - Relatório de Cobertura
 
