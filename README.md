@@ -5,7 +5,9 @@ I use it mostly to try out new ideas and technologies.
 
 ## Instalação
 
-Para configurar a API Key da Api, você pode editar diretamente no Info.plist na chave MovieApiKey.
+### Set ApiKey - https://www.themoviedb.org
+
+To configure an ApiKey on your request API, you can edit directly in the Info.plist in the MovieApiKey key.
 
 ### Slather - Relatório de Cobertura
 
@@ -35,7 +37,7 @@ To verify you're ready to generate test coverage, run your test suite on your pr
 $ slather coverage -s --scheme Movies Movies.xcodeproj
 ```
 
-Para exibir o html
+To generate html use:
 
 ```sh
 $ slather coverage --html --scheme Movies Movies.xcodeproj
