@@ -12,7 +12,7 @@ import MovieKit
 class PagedMovieList {
     
     private let queue = DispatchQueue(label: "PagedMovieList")
-    private let webService = WebService(apiKey: "b7945bed3806ddaece188b2cf7b50b30")
+    private let webService = WebService(apiKey: Constants.apiKeyValue()!)
     
     public private(set) var lastLoadedPageNumber = 0
     

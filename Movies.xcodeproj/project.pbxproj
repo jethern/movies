@@ -32,6 +32,7 @@
 		6709879A1E5DB07000C2FD63 /* PagedMovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670987991E5DB07000C2FD63 /* PagedMovieList.swift */; };
 		6709879C1E5DB0A000C2FD63 /* MovieListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709879B1E5DB09F00C2FD63 /* MovieListCell.swift */; };
 		6709879E1E5DB0E900C2FD63 /* MovieListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709879D1E5DB0E900C2FD63 /* MovieListController.swift */; };
+		67C535371E5DD24B00A2F9CC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C535361E5DD24B00A2F9CC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		670987991E5DB07000C2FD63 /* PagedMovieList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PagedMovieList.swift; path = Movies/PagedMovieList.swift; sourceTree = "<group>"; };
 		6709879B1E5DB09F00C2FD63 /* MovieListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListCell.swift; sourceTree = "<group>"; };
 		6709879D1E5DB0E900C2FD63 /* MovieListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovieListController.swift; path = Movies/MovieListController.swift; sourceTree = "<group>"; };
+		67C535361E5DD24B00A2F9CC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 		670987A61E5DB89100C2FD63 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				67C535361E5DD24B00A2F9CC /* Constants.swift */,
 			);
 			name = Repositories;
 			sourceTree = "<group>";
@@ -459,6 +462,7 @@
 				6709879A1E5DB07000C2FD63 /* PagedMovieList.swift in Sources */,
 				0D2831261E54442300385821 /* App.swift in Sources */,
 				0D40F17F1E43334200B5D77B /* AppDelegate.swift in Sources */,
+				67C535371E5DD24B00A2F9CC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

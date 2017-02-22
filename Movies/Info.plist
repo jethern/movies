@@ -38,5 +38,7 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>MovieApiKey</key>
+	<string>b7945bed3806ddaece188b2cf7b50b30</string>
 </dict>
 </plist>
