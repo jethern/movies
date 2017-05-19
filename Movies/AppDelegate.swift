@@ -20,7 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let megabytes = 1024*1024
         URLCache.shared = URLCache(memoryCapacity: 10*megabytes, diskCapacity: 20*megabytes, diskPath: nil)
-
         let app = App()
 
         window = UIWindow(frame: UIScreen.main.bounds)
